@@ -1,0 +1,311 @@
+.header {
+	margin-top: 10px;
+}
+.menu {
+	height: 37px;
+	padding-left: 30px;
+    padding-top: 13px;
+	background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(32,124,202,0.98) 13%, rgba(41,137,216,0.96) 25%, rgba(125,185,232,0.89) 61%, rgba(125,185,232,0.85) 80%);
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+.left_menu {
+	float: left;
+	clear: left;
+}
+.right_menu {
+	float: right;
+	clear: right;
+}
+.menu_item {
+	margin-right: 15px;
+	padding-bottom: 3px;
+	font-size: 17px;
+	text-decoration: none;
+	color: navy;
+}
+.menu_item:hover {
+	border-bottom: 2px solid navy;
+}
+.menu_item_selected {
+	margin-right: 15px;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: bold;
+	color: navy;
+}
+.container {
+	width: 634px;
+	margin: 0 auto;
+}
+.content {
+	border-color: peachpuff;
+    border-radius: 10px 10px 10px 10px;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 15px;
+	padding: 0 10px;
+    text-align: center;
+}
+.content_title {
+    color: cornflowerblue;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bold;
+}
+.error {
+    color: lightcoral;
+    font-family: Georgia;
+    font-size: 15px;
+    text-decoration: blink;
+}
+.table_container {
+	margin: 0 auto;
+    width: 223px;
+}
+label {
+    color: royalblue;
+    font-family: Courier New;
+    font-size: 15px;
+}
+.create_account_lbl {
+    color: graytext;
+    font-family: Lucida Grande;
+    font-size: 15px;
+    font-style: italic;
+}
+.create_account_link {
+    color: peru;
+}
+.login_btn, .register_btn {
+	cursor: pointer;
+    color: royalblue;
+}
+.search_field {
+    margin-right: 10px;
+    width: 200px;
+}
+.search_btn {
+    cursor: pointer;
+    background-image: url("/images/search-icon.png");
+    background-position: 5px 2px;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 10px 10px;
+    color: royalblue;
+    font-weight: bold;
+    height: 35px;
+    padding-left: 32px;
+	width: 110px;
+}
+.movie_container {
+    border-top: 1px dotted peachpuff;
+    margin-bottom: 25px;
+    overflow: hidden;
+    padding-top: 10px;
+}
+.movie_cover_container {
+    float: left;
+}
+.movie_cover_img {
+    border: 2px solid black;
+    border-radius: 8px 8px 8px 8px;
+}
+.movie_title_container {
+    margin-top: 5px;
+}
+.movie_title_link {
+    color: royalblue;
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: bold;
+}
+.movie_details {
+    color: lightslategrey;
+    font-family: tahoma;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.torrent_url {
+    color: lightpink;
+    text-decoration: none;
+}
+.torrent_url:hover {
+    text-decoration: underline;
+}
+.favorites_logo {
+    height: 60px;
+}
+.favorites_content_title {
+    color: cornflowerblue;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+.movie_header {
+    overflow: hidden;
+}
+.movie_header_cover_container {
+    float: left;
+    margin: 20px 15px 20px 3px;
+}
+.movie_header_cover {
+    border: 2px solid black;
+    border-radius: 16px 16px 16px 16px;
+}
+.movie_header_upload_date {
+    color: lightslategray;
+    font-family: monospace;
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: right;
+}
+.movie_header_title {
+    color: navy;
+    font-size: 25px;
+    font-weight: bold;
+}
+.movie_header_details {
+    color: slategrey;
+    font-family: Georgia;
+    font-size: 14px;
+    text-align: left;
+}
+.movie_header_actions {
+    text-align: left;
+}
+.imdb_logo {
+    width: 90px;
+}
+.favorite_staus_container {
+    margin-top: 10px;
+    overflow: hidden;
+}
+.favorite_logo {
+    float: left;
+    height: 40px;
+}
+.favorite_status_lbl {
+    color: dimgrey;
+    float: left;
+    font-family: Georgia;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-right: 10px;
+    margin-top: 3px;
+    width: 170px;
+}
+.add_favorite_btn {
+	cursor: pointer;
+    background-image: url("/images/plus-icon.png");
+    background-position: 5px 2px;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 10px 10px;
+    color: seagreen;
+    font-weight: bold;
+    height: 35px;
+	margin-top: 1px;
+    padding-left: 32px;
+	width: 110px;
+}
+.remove_favorite_btn {
+	cursor: pointer;
+    background-image: url("/images/minus-icon.png");
+    background-position: 5px 2px;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 10px 10px;
+    color: tomato;
+    font-weight: bold;
+    height: 35px;
+	margin-top: 1px;
+    padding-left: 32px;
+	width: 110px;
+}
+.movie_description, .movie_screenshots, .movie_technical_specs {
+    text-align: justify;
+}
+.movie_description_lbl, .movie_screenshots_lbl, .movie_technical_specs_lbl {
+    color: lightslategray;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
+	margin-bottom: 0;
+}
+.movie_description_content, .movie_technical_specs_content {
+    color: darkslategray;
+    font-family: Georgia;
+    font-size: 15px;
+	margin-top: 10px;
+}
+.movie_screenshot {
+    border: 2px solid black;
+    border-radius: 5px 5px 5px 5px;
+    margin: 10px 0;
+    width: 606px;
+}
+.download_link_container {
+    margin: 10px 0 20px;
+    padding: 6px 0;
+}
+.download_btn {
+    background-color: peachpuff;
+    border-color: #CCCCCC #333333 #333333 #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    border-style: solid;
+    border-width: 1px;
+    color: #333333;
+    font-family: Georgia;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+.recomendation_container {
+    border-top: 2px solid peachpuff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+}
+.recommendation_title, .search_title {
+    font-family: Courier New;
+    font-size: 20px;
+    margin-left: 25px;
+    text-align: left;
+}
+.recomm_movie_container {
+    float: left;
+    margin-bottom: 10px;
+    width: 33.33%;
+}
+.recomm_movie_cover {
+    border: 2px solid black;
+    border-radius: 5px 5px 5px 5px;
+    height: 100px;
+}
+.recomm_movie_cover:hover {
+    border-color: orangered;
+}
+.recomm_movie_title_link {
+    color: saddlebrown;
+    text-decoration: none;
+}
+.recomm_movie_title_link:hover {
+    text-decoration: underline;
+}
+.go_to_serach {
+    color: salmon;
+	font-family: monospace;
+    font-size: 15px;
+    font-weight: bold
+}
+.footer_lbl {
+	text-align: center;
+	margin-bottom: 3px;
+	color: slategrey;
+}
+.footer_logo_container {
+	text-align: center;
+}
+.footer_logo {
+	height: 50px;
+    width: 50px;
+}
